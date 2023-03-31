@@ -1,0 +1,55 @@
+.container{
+    border:solid rgb(39, 204, 47) 3px;
+	box-shadow:0px 0px 50px black;
+    background-color:rgb(88, 65, 22);
+    display:flex; 
+    flex-flow:row wrap;
+    width:1000px;
+    height:650px;
+    justify-content:space-around;
+    align-items:center;
+}
+.container > div{
+    width:600px;
+    height:600px;
+    margin:10px;
+    display:flex;
+    position:relative;
+}
+body{
+	background-color:green;
+}
+.container > div > img {
+    height:22%;
+    width:22%;
+    position:absolute;
+    animation-name:animate1;
+    animation-duration:5s;
+    animation-iteration-count: infinite; 
+    animation-direction:normal;
+    animation-delay:2s;
+}
+/*creating animations*/
+@keyframes animate1{
+    from {
+            left:0;
+            top:0;
+            /*transform:rotate(0deg);*/
+    }
+    25%{
+        top:0;
+        left:450px;
+    }
+    50% {
+            left:450px;
+            top:450px;
+    }
+    75%{
+            left:0;
+            top:450px;
+    }
+    to {
+            left:0;
+            top:0;
+    }
+}
