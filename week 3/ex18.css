@@ -1,0 +1,58 @@
+.a1
+{
+     background-color:rgb(32, 0, 0);
+     height:100vh;
+     width:100vw;
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:space-around;
+     align-items:center;
+
+}
+.a1 >.a2
+{
+    background-color:rgba(255, 132, 10, 0.299);
+    height:500px;
+    width:500px;
+    display: flex;
+    position:relative;
+}
+.a1 > .a2 > img
+{
+    height:20%;
+    width:20%;
+    animation-name:animate1;
+    /* animation-delay:2s; */
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animate1{
+    from
+    {
+        top:0;
+        left:0;
+   
+    }
+
+25%
+{ top:0;
+bottom:450px;
+}
+50%
+{
+    left:450px;
+    top:450px;
+}
+75%
+{
+    left:0;
+    top:450px;
+}
+to{
+    left:0;
+    top:0;
+}
+
+}

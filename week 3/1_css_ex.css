@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: rgb(253, 143, 0);
+    text-decoration: underline;
+
+    padding: 4px;
+   
+    
+    text-shadow: 4px 60px 50px rgb(255, 255, 255);
+}
+.s1
+{
+    border-style:solid;
+    border-color:aqua;
+}
+span {
+    font-size: 2em;
+    /* the em is used because we want to change the size of the  text with respect to parent or other.*/
+    font-style: italics;
+    color: red;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, .4), rgba(0, 255, 0, 0.4), blue), url('images/34.jpg');
+}
+
+p {
+    font-size: 15px;
+    color: white;
+    /* line-decoration-spacing:3px; */
+}
+
+h2 {
+    color:rgb(255, 173, 67);
+    text-align:center;
+    border:rgb(255, 132, 132) groove 2px;
+    width:20%;
+
+}
