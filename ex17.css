@@ -1,0 +1,53 @@
+h1 {
+    /* color:rgb(245, 35, 35); */
+    text-align: center;
+    font-style: normal;
+    font-size: 55px;
+
+}
+
+body {
+    background-color: rgba(69, 194, 194, 0.183);
+    /* background-image: url('images/11.jpeg'),url('images/11.jpeg'); */
+    background-image:url("images/bgs/argyle.png");
+    background-size: cover;
+    color:white;
+    background-repeat: no-repeat;
+    /* height:100vh; */
+    background-position:cover;
+    background-attachment:fixed;
+}
+
+p {
+    color: rgb(5, 3, 1);
+    border: rgb(246, 168, 168) 4px solid;
+    border-radius: 34px;;
+    outline-offset: 2px black;
+    margin:10px;
+    padding: 23px;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 40%;
+    font-size: 30px;
+    position: relative;
+  background-color:rgb(195, 127, 43);
+
+}
+
+div {
+    
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin:100px;
+    /* border-sizing:box-sizing; */
+}
+
+span {
+    border: 6px rgb(167, 41, 41) solid;
+    width: 60%;
+
+    outline-offset: 3px;
+    outline: 6px double rgb(152, 78, 78);
+
+}

@@ -1,0 +1,44 @@
+body {
+    /* background-image: url('images/12.jpeg'); */
+    background-color: aquamarine;
+}
+h1
+{   background-color:rgb(250, 176, 79);
+    text-align:center;
+    width:30%;
+}
+span
+{   
+    border:solid;
+}
+div{
+    /* color:red; */
+margin:6px;
+
+}
+.b1 
+{    border-style:solid;
+    box-sizing:border-box;
+}
+.i1 .i2 .i3 .i4 .i5 
+{   height:auto;
+    width:auto;
+    box-sizing:border-box;
+}
+
+.b2
+{    border-style:solid;
+    box-sizing:border-box;
+}
+.b3
+{    border-style:solid;
+    box-sizing:border-box;
+}
+.b4
+{    border-style:solid;
+    box-sizing:border-box;
+}
+.b5
+{    border-style:solid;
+    box-sizing:border-box;
+}
